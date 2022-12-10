@@ -1,3 +1,7 @@
+
+
+
+
 /*
 * djksvnckjnv
 * vbf
@@ -73,11 +77,11 @@ console.log(d)
 
 //4) undefined - неопределенный тип данных
 let name;
-console.log(typeof name)
+// console.log(typeof name)
 
 //5) null - нулевой тип данных
 var surname = null;
-console.log(typeof surname)
+// console.log(typeof surname)
 
 // 6)object - объект(комплексный тип данных)
 var user = {
@@ -92,26 +96,26 @@ var user = {
         month: 'JS1'},
 
 };
-console.log(user.name, user.surname)
-console.log(user.frontend.month)
+// console.log(user.name, user.surname)
+// console.log(user.frontend.month)
 
 //NaN - not a number
-var a = 12;
-var b = 'qwerty'
-console.log(a / b)
-console.log(typeof NaN)
+// var a = 12;
+// var b = 'qwerty'
+// console.log(a / b)
+// console.log(typeof NaN)
 
-var nameUser = 'Aidana';
-var surnameUser = 'Bekova';
-var lastNameUser = 'Bekovna';
+// var nameUser = 'Aidana';
+// var surnameUser = 'Bekova';
+// var lastNameUser = 'Bekovna';
 //concatenation-конкатенация строк
-var fullnameUser = surnameUser + ' ' + nameUser + ' ' + lastNameUser
-console.log(fullnameUser);
+// var fullnameUser = surnameUser + ' ' + nameUser + ' ' + lastNameUser
+// console.log(fullnameUser);
 
 //escaping - экранирование строк
-var directionInProgramming = 'Разработка сайтов'
-var profession = 'Frontend-разработка'
-console.log('Сфера разработки - '+ directionInProgramming, '\n\tа именно - ' + profession)
+// var directionInProgramming = 'Разработка сайтов'
+// var profession = 'Frontend-разработка'
+// console.log('Сфера разработки - '+ directionInProgramming, '\n\tа именно - ' + profession)
 
 
 
